@@ -1,0 +1,10 @@
+<?php
+
+class Twitter {
+}
+
+class GashScav extends Twitter {
+	$username = 'gashscav';
+	$password = 'bopcbopc';
+}
+?>

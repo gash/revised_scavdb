@@ -1,0 +1,38 @@
+<?php return <<<MARKUP
+
+<form method="GET" action="search.php">
+<div class="header" id="header">
+<h1><a href="/">GASH: FOGIES</a></h1>
+<span class="sbox">
+<input type="text" name="q" value="{$query}">
+<input type="submit" name="submit" value="Go">
+</span>
+<ul class="nav">
+<li><a href="/">Home</a></li>
+<li><a href="/page.php">List</a></li>
+<li><a href="/tags.php">Tags</a></li>
+<li><a href="/recent.php">Recent</a></li>
+<li><a href="/messages.php">Mailbox</a></li>
+<li><a href="/people.php">People</a></li>
+<li><a href="/events.php">Events</a></li>
+<li><a href="/status.php">Statuses</a></li>
+<li><a href="/reg.php">Register</a></li>
+<li><a href="/page.php?status_match=Supplies">Items Needing Supplies</a></li>
+<li><a href="/page.php?status_match=People">Items Needing People</a></li>
+</ul>
+<ul class="nav">
+<li><span style="color: #fff;"><strong>Google Docs:</strong></a></li>
+<li><a href="https://spreadsheets.google.com/ccc?key=0At-tjvq02iYddDFLdmlkOS1wc0NfMnNQcHdkTEFNOEE&hl=en&authkey=CIO_vPAP">Shopping List</a></li>
+<li><a href="https://docs.google.com/document/d/16gKo4LWQgNHpdsZVcvqU3-x5L2aXiD4q7-kobMyYS80/edit?hl=en&authkey=COmO94cC">Timed Items</a></li>
+<li><a href="https://docs.google.com/document/d/1efMqPBw7M9SXIUOF4DO2nL4UyLKHm0MbkU8lYt2o-18/edit?hl=en&authkey=COT-p8EK">Contact Numbers</a></li>
+<li><a href="https://spreadsheets.google.com/ccc?key=0At-tjvq02iYddGc1aTRtaHkxdHBQZlVFTTg1MUQ5MUE&hl=en&authkey=CITxmo8P">Resource People</a></li>
+<!--
+<li><a href="">My Page</a></li>
+//-->
+
+</ul>
+</div>
+</form>
+
+MARKUP;
+?>

@@ -1,0 +1,8 @@
+<?php
+return <<<HTML
+<table class="listinfo" cellspacing="0" rules="cols">
+<tr>{$page_list}</tr>
+{$statuses}
+</table>
+HTML;
+?>

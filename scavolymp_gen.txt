@@ -1,0 +1,9 @@
+INSERT INTO items VALUES (-1,-1,'n',NULL,NULL,NULL,unix_timestamp());
+INSERT INTO items VALUES (-2,-1,'n',NULL,NULL,NULL,unix_timestamp());
+INSERT INTO items VALUES (-3,-1,'n',NULL,NULL,NULL,unix_timestamp());
+INSERT INTO items VALUES (-4,-1,'n',NULL,NULL,NULL,unix_timestamp());
+INSERT INTO items VALUES (-5,-1,'n',NULL,NULL,NULL,unix_timestamp());
+INSERT INTO items VALUES (-6,-1,'n',NULL,NULL,NULL,unix_timestamp());
+INSERT INTO items VALUES (-7,-1,'n',NULL,NULL,NULL,unix_timestamp());
+INSERT INTO items VALUES (-8,-1,'n',NULL,NULL,NULL,unix_timestamp());
+INSERT INTO items VALUES (-9,-1,'n',NULL,NULL,NULL,unix_timestamp());

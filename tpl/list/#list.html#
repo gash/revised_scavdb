@@ -1,0 +1,11 @@
+<?php
+
+<table class="listinfo" cellspacing="0" rules="cols">";
+<?php for ($i = 0; $i < 5; $i++) {
+$html += "<tr><td></td>{$status}<td>Total</td></tr>";
+}
+?>
+<!-- {$pages} -->
+$html += "</table>";
+return $html;
+?>

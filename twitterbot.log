@@ -1,0 +1,4 @@
+
+Warning: require_once(lib/db.inc.php): failed to open stream: No such file or directory in /usr/local/scavdb/code/includes/lib/people.inc.php on line 3
+
+Fatal error: require_once(): Failed opening required 'lib/db.inc.php' (include_path='.:/usr/share/php:/usr/share/pear') in /usr/local/scavdb/code/includes/lib/people.inc.php on line 3

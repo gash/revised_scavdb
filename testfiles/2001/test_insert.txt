@@ -1,0 +1,1 @@
+insert into items values (1002.00,-1,'n',4,NULL,'Test from MySQL, Part 2',unix_timestamp());

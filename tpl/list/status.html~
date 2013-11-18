@@ -1,0 +1,7 @@
+<?php
+return <<<HTML
+<tr><td>{$name}</td>
+{$page}
+</tr>
+HTML;
+?>

@@ -1,0 +1,15 @@
+<?php
+return <<<HTML
+<div class='item-nav'>
+<a href="item.php?id={$prev_id}" class="prev">{$prev_label}</a>
+<a href="item.php?id={$next_id}" class="next">{$next_label}</a>
+</div>
+<table>
+<tr><th>Person</th>
+<th>Page</th></tr>
+<tr><td>{$name}</td>
+<td>{$id}</td>
+</tr>
+
+</table>
+?>

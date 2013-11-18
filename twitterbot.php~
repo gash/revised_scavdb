@@ -1,0 +1,21 @@
+<?php
+
+$baseurl = 'http://search.twitter.com/search.json';
+
+function do_search($qstring) {
+  global $baseurl;
+  $url = $baseurl . $qstring;
+  $ch = curl_init($url);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+  $json = curl_exec($ch);
+  if (!$json) {
+    throw new Exception(curl_error($ch));
+  }
+  $data = json_decode($json, 1);
+  return $data;
+}
+
+$data = do_search('?q=to%3Agashscav');
+var_dump($data);
+
+?>

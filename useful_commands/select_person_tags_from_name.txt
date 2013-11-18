@@ -1,0 +1,1 @@
+SELECT tags.tag FROM tags, people WHERE people.name="Ashley Meyer" AND tags.datatype="people" AND tags.data_id = people.person_id;

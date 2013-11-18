@@ -1,0 +1,10 @@
+<?php
+return <<<HTML
+<div class="comment">{$NUM} items | Pages: {$pages}<br />
+Page Captain(s): {$captains}<br />
+Status: {$statuses}</div>
+<ul class='itemlist'>
+	{$ITEMS}
+</ul>
+HTML;
+?>

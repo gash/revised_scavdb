@@ -1,0 +1,19 @@
+<?php return <<<MARKUP
+
+<div class="results">
+
+<div class="header">
+<h3>Sorry you guys search is broken!! Can you get Yitz to talk to me so we can fix it? Then please do!! -Clara</h3>
+<h4>
+<span>{$num_rows} results (took {$time} secs)</span>
+</h4>
+</div>
+
+<ol>
+{$results}
+</ol>
+
+</div>
+
+MARKUP;
+?>
